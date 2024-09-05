@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Practica 11</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<!-- Victor Gonzalez practica 11 -->
+<body>
+    <header class="header">
+        <img class="header__logo" src="https://1000logos.net/wp-content/uploads/2020/10/Citibanamex-Logo.png" alt="Banamex">
+        <section class="header__menu">
+            <nav class="header__nav">
+                <a class="header__link" href="./personas.html">Personas</a>
+                <a class="header__link" href="./pymes.html">PyMES</a>
+                <a class="header__link" href="./empresas.html">Empresas</a>
+            </nav>
+            <section class="header__user">
+                <i><img src="./img/dollar-sign.svg" alt="Inver"></i>
+                <i><img src="./img/user_b.svg" alt="user"></i>
+            </section>
+        </section>
+    </header>
+    <main>
+        <article class="offerings">
+            <p class="offerings__title">Descubre los beneficios que te ofrecemos</p>
+        </article>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://www.banamex.com/sitios/promociones/img/promociones/1000x600/CoronaCapital2024.jpg" class="d-block w-100" alt="corona Capital">
+                <p class="promotions__title">Corona Capital</p>
+                <button class="promotions__btn" >Comprar</button>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.banamex.com/sitios/promociones/img/promociones/1000x600/PaulMcCartney.jpg" class="d-block w-100" alt="Paul McCartney" >
+                <p class="promotions__title">Paul McCartney</p>
+                <button class="promotions__btn" >Comprar</button>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.banamex.com/sitios/promociones/img/promociones/1000x600/GEPE.jpg" class="d-block w-100" alt="GEPE">
+                <p class="promotions__title">GEPE</p>
+                <button class="promotions__btn promotions__btn--no" >Comprar</button>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        feather.replace();
+    </script>    
+
+</body>
+</html>
