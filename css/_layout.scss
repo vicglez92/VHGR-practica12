@@ -62,7 +62,7 @@ body {
 
 main {
     article {
-        @include shadowCont(10px, #ffff00, $mainColor);
+        @include shadowCont(10px, #ffd900, $mainColor);
         
         .promotions__btn {
             @extend %button;
@@ -121,7 +121,7 @@ main {
 
  
 .carousel {
-    width: 300px;
+    width: 500px;
     margin: auto;
 }
 
